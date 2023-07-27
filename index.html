@@ -34,8 +34,50 @@
 </head>
 <body class="font-lato">
   <nav>
-
+    <!-- small screen nav -->
+    <div class="navbar bg-base-100 lg:hidden">
+      
+      <div class="navbar-start">
+        <img src="./images/logo.png" alt="">
+        <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+      </div>
+      <div class="navbar-end">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All fruits</a></li>
+          </ul>
+        </div>
+      </div>
+     
+    </div>
+    </nav>
+    
+    <nav  class="container mx-auto mt-10 hidden lg:block">
+    <!-- big screen nav -->
+    <div class="navbar bg-red-400 rounded-3xl ">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-white">Home</a>
+        <a class="btn btn-ghost normal-case text-white">About Us</a>
+        <a class="btn btn-ghost normal-case text-white">Shop</a>
+        <a class="btn btn-ghost normal-case text-white">All Fruits</a>
+      </div>
+      <div class="flex-1">
+        <img src="./images/logo.png" alt="">
+        <h2 class="text-4xl font-bold text-white pl-3">Fruit Burst</h2>
+      </div>
+      <div class="flex-none gap-2">
+        <div class="form-control">
+          <input type="text" placeholder="Search " class="input input-bordered w-24 md:w-auto m-2 rounded-2xl" /> 
+        </div>
+        
   </nav>
+  
   <header class="">
     
    <div class="container mx-auto">
